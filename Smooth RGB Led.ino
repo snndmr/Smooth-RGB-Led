@@ -30,7 +30,7 @@ void smoothTransition(int red, int green, int blue) {
   for (float r = red, g = green, b = blue; r > 0 || g > 0 || b > 0;
        r -= stepSizeR, g -= stepSizeG, b -= stepSizeB) {
     setColor(r, g, b);
-    delay(1024 .0 / MIN);
+    delay(1024.0 / MIN);
   }
 }
 
